@@ -12,10 +12,10 @@ quantDown.addEventListener('click', function(){
     if (quantity > 0) {
         quantity--
     }
-    changeQuantity('Quantity: $[quantity}')
+    changeQuantity('Quantity: ${quantity}')
 })
 
 quantUp.addEventListener('click', function(){
     quantity++
-    changeQuantity('Quantity: $[quantity}')
+    changeQuantity('Quantity: ${quantity}')
 })
