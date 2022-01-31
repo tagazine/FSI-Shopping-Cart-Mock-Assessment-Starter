@@ -5,7 +5,7 @@ function changeQuantity(quantDisplay) {
 
 function changePrice(priceDisplay) {
     let price = document.querySelector('.total-price')
-    price = 15.00 * quantity
+    let price = 15.00 * quantity
     price.innerHTML = priceDisplay
 }
 
