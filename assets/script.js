@@ -5,8 +5,8 @@ function changeQuantity (display) {
 
 let quantity = 1
 
-let quantDown = document.querySelector('#quantity-down')
-let quantUp = document.querySelector('#quantity-up')
+const quantDown = document.querySelector('#quantity-down')
+const quantUp = document.querySelector('#quantity-up')
 
 quantDown.addEventListener('click', function(){
     if (quantity > 0) {
