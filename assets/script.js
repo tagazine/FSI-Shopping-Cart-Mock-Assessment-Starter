@@ -1,6 +1,6 @@
-function changeQuantity(display) {
+function changeQuantity(quantDisplay) {
     let quantity = document.querySelector('.total-quantity')
-    quantity.innerHTML = display
+    quantity.innerHTML = quantDisplay
 }
 
 let quantity = 1
