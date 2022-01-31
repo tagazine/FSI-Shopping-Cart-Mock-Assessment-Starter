@@ -1,4 +1,4 @@
-function changeQuantity (display) {
+function changeQuantity(display) {
     let quantity = document.querySelector('.total-quantity')
     quantity.innerHTML = display
 }
