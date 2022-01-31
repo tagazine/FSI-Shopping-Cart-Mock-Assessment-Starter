@@ -20,21 +20,21 @@ quantDown.addEventListener('click', function(e){
         quantity--
         
     }
-    let price = 15.00 * quantity
+    let price = 15.00 * quantity;
     changeQuantity(`Quantity: ${quantity}`)
     changePrice(`Total Price: ${price}`)
 })
 
 quantUp.addEventListener('click', function(e){
     quantity++
-    let price = 15.00 * quantity
+    let price = 15.00 * quantity;
     changeQuantity(`Quantity: ${quantity}`)
     changePrice(`Total Price: ${price}`)
 })
 
 quantZero.addEventListener('click', function(e){
     quantity = 0
-    let price = 15.00 * quantity
+    let price = 15.00 * quantity;
     changeQuantity(`Quantity: ${quantity}`)
     changePrice(`Total Price: ${price}`)
 })
