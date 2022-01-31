@@ -1,5 +1,5 @@
 function changeQuantity (display) {
-    let quantity = document.querySelector9('.total-quantity')
+    let quantity = document.querySelector('.total-quantity')
     quantity.innerHTML = display
 }
 
